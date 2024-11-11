@@ -123,7 +123,7 @@ const PerstectiveMenu: React.FC<PerstectiveMenuProps> = ({ style }) => {
     <GestureHandlerRootView style={[style]}>
       <GestureDetector gesture={gesture}>
         <Animated.View
-          style={[{ flex: 1, backgroundColor: '#E6D9A2', padding: 10 }, reanimatedStyle]}
+          style={[{ flex: 1, backgroundColor: '#FFF7D1', padding: 10 }, reanimatedStyle]}
         >
           <Entypo
             name="menu"
